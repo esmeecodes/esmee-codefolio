@@ -1,0 +1,22 @@
+.Footerprops {
+  display: flex;
+  margin: 10px 30px;
+  justify-content: space-between;
+  max-width: 1280px;
+}
+
+.footerInfo {
+  font-size: 12px;
+  font-weight: bolder;
+}
+.footerinfo a {
+  text-decoration: none;
+  color: grey;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  gap: 20px;
+}

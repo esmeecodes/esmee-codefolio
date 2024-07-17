@@ -1,0 +1,43 @@
+.intro {
+  margin: 20px 30px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  /* background-color: bisque; */
+}
+
+.homeheader-title {
+  display: block;
+  grid-column: 1 / span 12;
+  font-size: 118px;
+  line-height: 1;
+  font-weight: 600;
+  margin: 0;
+  position: relative;
+  animation: fadeInUp 1s ease-in-out;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.homeheader-image {
+  display: block;
+  background-color: blueviolet;
+  grid-column: 6 / span 1;
+}
+
+.homeheader-name {
+  display: block;
+  grid-column: 6 / span 12;
+  font-size: 48px;
+  font-weight: 600;
+  text-align: right;
+  margin: 0;
+}
