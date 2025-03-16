@@ -13,12 +13,12 @@ export default function Navbar() {
           <li>Based in Berlin - Germany</li>
           <li>
             Currently working on:
-            <a href="https://centraalbeheer.nl/zakelijk" target="_blank">
-              Centraal Beheer - Achmea
+            <a href="https://www.klarso.com/" target="_blank">
+            Klarso GmbH
             </a>
           </li>
           <li>
-            Available from: 01.06.23
+            Available for small projects
             <a href="mailto:hello@esmeezootjes.nl" title="getintouchbutton">
               get in touch
             </a>
